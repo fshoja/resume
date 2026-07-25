@@ -297,3 +297,87 @@ section p{
     }
 
 }
+@page{
+    size:A4;
+    margin:0;
+}
+
+@media print{
+
+    html,body{
+        width:210mm;
+        height:297mm;
+    }
+
+    body{
+        margin:0;
+        padding:0;
+        background:#fff;
+    }
+
+    .resume{
+        width:210mm;
+        min-height:297mm;
+        box-shadow:none;
+        border-radius:0;
+        overflow:hidden;
+    }
+
+    a{
+        color:#000;
+        text-decoration:none;
+    }
+
+}
+
+.project-card img{
+    transition:.3s;
+}
+
+.project-card:hover img{
+    transform:scale(1.05);
+}
+
+a{
+    word-break:break-word;
+}
+
+.box a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.box a:hover{
+    color:#60a5fa;
+}
+
+@page{
+    size:A4;
+    margin:0;
+}
+
+@media print{
+
+    body{
+        background:#fff;
+        padding:0;
+        margin:0;
+    }
+
+    .resume{
+        width:210mm;
+        min-height:297mm;
+        border-radius:0;
+        box-shadow:none;
+        overflow:hidden;
+    }
+
+    .project-card{
+        page-break-inside:avoid;
+    }
+
+    a{
+        color:#000;
+        text-decoration:none;
+    }
+}
