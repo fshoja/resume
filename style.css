@@ -57,8 +57,8 @@ section{
     break-inside: avoid;
 }
 .profile{
-    width:130px;
-    height:130px;
+    width:110px;
+    height:110px;
     object-fit:cover;
     border-radius:50%;
     display:block;
@@ -68,7 +68,7 @@ section{
 
 .sidebar h1{
     text-align:center;
-    font-size:32px;
+    font-size:26px;
     margin-bottom:8px;
 }
 
@@ -214,7 +214,7 @@ section p{
     margin-bottom:10px;
 }
 .project-card p{
-    font-size:13px;
+    font-size:11px;
     line-height:1.35;
 }
 
@@ -241,8 +241,8 @@ section p{
 }
 
 .project-card img{
-    width:45px;
-    height:45px;
+    width:55px;
+    height:55px;
     object-fit:cover;
     border-radius:12px;
     border:1px solid #e2e8f0;
