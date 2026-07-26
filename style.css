@@ -368,24 +368,66 @@ section p{
     }
 
 }
+
 @media print {
-
-.project-card:nth-of-type(5),
-.project-card:nth-of-type(6){
-    display:none;
-}
-
-.card{
-    margin-top:5px;
-}
 
 body{
     padding:0;
 }
 
 .resume{
+    width:210mm;
+    min-height:297mm;
     box-shadow:none;
-    border-radius:0;
+}
+
+.sidebar{
+    padding:12px;
+}
+
+.profile{
+    width:90px;
+    height:90px;
+    margin-bottom:10px;
+}
+
+.sidebar h1{
+    font-size:24px;
+}
+
+.box{
+    margin-bottom:10px;
+}
+
+main{
+    padding:12px;
+}
+
+section{
+    margin-bottom:8px;
+}
+
+.project-card{
+    padding:8px;
+    margin-bottom:6px;
+}
+
+.project-card img{
+    width:50px;
+    height:50px;
+}
+
+.project-card p{
+    font-size:11px;
+}
+
+.project-card a{
+    padding:3px 8px;
+    font-size:10px;
+}
+
+.card{
+    padding:8px;
 }
 
 }
