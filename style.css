@@ -337,3 +337,12 @@ section p{
         page-break-inside:avoid;
     }
 }
+.contact a,
+.contact a:visited{
+    color:#cbd5e1;
+    text-decoration:none;
+}
+
+.contact a:hover{
+    color:#3b82f6;
+}
