@@ -320,31 +320,24 @@ section p{
 /* ================= Print ================= */
 
 
-
-@page{
-    size:A4;
-    margin:0;
+@page {
+    size: A4;
+    margin: 0;
 }
 
 @media print {
-
-    body{
-        margin:0;
-        padding:0;
-        background:#fff;
+    body {
+        margin: 0;
+        background: white;
     }
 
-.resume{
-     width:210mm;
-    min-height:297mm;
-    display:grid;
-    grid-template-columns:72mm 1fr;
+    .container {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        box-shadow: none;
+    }
 }
-
-    .sidebar{
-        padding:18px;
-    }
-
     main{
         padding:18px;
         overflow:hidden;
@@ -354,4 +347,3 @@ section p{
         break-inside:avoid;
         page-break-inside:avoid;
     }
-}
