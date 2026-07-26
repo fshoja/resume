@@ -319,31 +319,46 @@ section p{
 
 /* ================= Print ================= */
 
+/* ================= Print ================= */
 
-@page {
-    size: A4;
-    margin: 0;
+@page{
+    size:A4;
+    margin:0;
 }
 
-@media print {
-    body {
-        margin: 0;
-        background: white;
+@media print{
+
+    html,
+    body{
+        width:210mm;
+        height:297mm;
+        margin:0;
+        padding:0;
+        background:#fff;
     }
 
-    .container {
-        width: 210mm;
-        min-height: 297mm;
-        margin: 0 auto;
-        box-shadow: none;
+    body{
+        padding:0;
     }
-}
-    main{
-        padding:18px;
+
+    .resume{
+        width:210mm;
+        min-height:297mm;
+        margin:0;
+        border-radius:0;
+        box-shadow:none;
         overflow:hidden;
     }
 
-    .project-card{
-        break-inside:avoid;
-        page-break-inside:avoid;
+    main{
+        padding:18px;
     }
+
+    section,
+    .project-card,
+    .card{
+        page-break-inside:avoid;
+        break-inside:avoid;
+    }
+
+}
