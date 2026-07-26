@@ -45,7 +45,7 @@ Open `index.html` in your browser.
 **Farzaneh Shoja**
 
 - GitHub: https://github.com/fshoja
-- LinkedIn: https://www.linkedin.com/in/farzaneh-shoja
+- LinkedIn: https://www.linkedin.com/in/farzaneh-shoja/
 
 ## License
 
