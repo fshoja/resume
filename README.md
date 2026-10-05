@@ -28,7 +28,9 @@ A modern and responsive personal resume website built with HTML and CSS.
 
 ## 📸 Preview
 
-![Resume Preview](Screenshot%20%28482%29.png)
+![Resume Preview](## 📸 Preview
+
+![Resume Preview](profilresume.png))
 
 ## 🚀 Getting Started
 
