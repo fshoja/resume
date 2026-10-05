@@ -12,23 +12,23 @@ A modern and responsive personal resume website built with HTML5 and CSS3.
 
 ## ✨ Features
 
-* Responsive Design
-* Clean and Modern UI
-* Personal Profile
-* Skills Section
-* Projects Showcase
-* Contact Information
-* Optimized for PDF Export
+- Responsive Design
+- Clean and Modern UI
+- Personal Profile
+- Skills Section
+- Projects Showcase
+- Contact Information
+- Optimized for PDF Export
 
 ## 🛠 Technologies
 
-* HTML5
-* CSS3
-* Responsive Web Design
+- HTML5
+- CSS3
+- Responsive Web Design
 
 ## 📸 Preview
 
-![Resume Preview](https://github.com/fshoja/resume/raw/main/profilresume.png.png)
+![Resume Preview](./profilresume.png)
 
 ## 🚀 Getting Started
 
@@ -36,13 +36,3 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/fshoja/resume.git
-```
-
-Then open the project folder and launch `index.html` in your browser.
-
-## 👩‍💻 Author
-
-**Farzaneh Shoja**
-
-* GitHub: [fshoja](https://github.com/fshoja)
-* LinkedIn: [Farzaneh Shoja](https://www.linkedin.com/in/farzaneh-shoja1/)
