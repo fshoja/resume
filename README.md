@@ -28,7 +28,7 @@ A modern and responsive personal resume website built with HTML5 and CSS3.
 
 ## 📸 Preview
 
-![Resume Preview](https://github.com/fshoja/resume/raw/main/Screenshot%20%28482%29.png)
+![Resume Preview](https://github.com/fshoja/resume/raw/main/profilresume.png.png)
 
 ## 🚀 Getting Started
 
