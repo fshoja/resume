@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #2563eb;
+    --primary-light: #60a5fa;
+    --dark: #0f172a;
+    --text: #475569;
+    --border: #e2e8f0;
+    --bg: #eef2f7;
+    --white: #fff;
+}
+
+/* ================= BODY ================= */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg);
+    color: #222;
+    padding: 20px;
+}
+
+/* ================= RESUME ================= */
+
+.resume {
+    width: 750px;
+    min-height: 1050px;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 240px 1fr;
+
+    background: #fff;
+
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* ================= SIDEBAR ================= */
+
+.sidebar {
+    background: #0f172a;
+    color: #fff;
+    padding: 14px;
+}
+
+.profile {
+    width: 75px;
+    height: 75px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    display: block;
+
+    margin: 0 auto 12px;
+
+    border: 4px solid var(--primary);
+}
+
+.sidebar h1 {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 6px;
+}
+
+.sidebar > span {
+    display: block;
+
+    text-align: center;
+
+    color: #93c5fd;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.5px;
+
+    font-size: 11px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+
+    background: #334155;
+
+    margin: 14px 0;
+}
+
+.box {
+    margin-bottom: 12px;
+}
+
+.box h3 {
+    color: #60a5fa;
+
+    margin-bottom: 9px;
+
+    font-size: 15px;
+}
+
+.box p {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-bottom: 8px;
+
+    font-size: 11px;
+
+    color: #e2e8f0;
+}
+
+.box i {
+    color: #60a5fa;
+
+    width: 16px;
+}
+
+/* ================= SKILLS ================= */
+
+.skill {
+    margin-bottom: 9px;
+}
+
+.skill span {
+    display: block;
+
+    margin-bottom: 4px;
+
+    font-size: 11px;
+}
+
+.bar {
+    width: 100%;
+
+    height: 6px;
+
+    background: #334155;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.bar div {
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #60a5fa
+    );
+}
+
+/* ================= MAIN ================= */
+
+main {
+    padding: 12px;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+section {
+    margin-bottom: 8px;
+}
+
+section h2 {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #2563eb;
+
+    font-size: 17px;
+
+    margin-bottom: 10px;
+
+    position: relative;
+}
+
+section h2::after {
+    content: "";
+
+    position: absolute;
+
+    bottom: -5px;
+
+    left: 0;
+
+    width: 55px;
+
+    height: 3px;
+
+    background: #2563eb;
+
+    border-radius: 10px;
+}
+
+section p {
+    color: #64748b;
+
+    line-height: 1.4;
+
+    font-size: 11px;
+
+    margin-bottom: 7px;
+}
+
+/* ================= PROJECTS ================= */
+
+.project-card {
+    display: flex;
+
+    gap: 12px;
+
+    align-items: center;
+
+    border: 1px solid var(--border);
+
+    border-left: 4px solid var(--primary);
+
+    border-radius: 10px;
+
+    padding: 8px;
+
+    margin-bottom: 6px;
+
+    page-break-inside: avoid;
+
+    break-inside: avoid;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(37, 99, 235, 0.15);
+}
+
+.project-card img {
+    width: 45px;
+
+    height: 45px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    border: 1px solid #e2e8f0;
+
+    flex-shrink: 0;
+}
+
+.project-info {
+    flex: 1;
+
+    min-width: 0;
+}
+
+.project-type {
+    display: inline-block;
+
+    background: #dbeafe;
+
+    color: #2563eb;
+
+    padding: 3px 7px;
+
+    border-radius: 15px;
+
+    font-size: 9px;
+
+    font-weight: 600;
+
+    margin-bottom: 5px;
+}
+
+.project-card h3 {
+    font-size: 12px;
+
+    margin-bottom: 5px;
+}
+
+.project-card p {
+    font-size: 9px;
+
+    line-height: 1.25;
+
+    margin-bottom: 4px;
+}
+
+/* ================= LINKS ================= */
+
+.project-card a {
+    display: inline-block;
+
+    margin-top: 3px;
+
+    margin-right: 4px;
+
+    padding: 3px 7px;
+
+    background: #2563eb;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    font-size: 9px;
+
+    position: relative;
+
+    z-index: 20;
+
+    cursor: pointer;
+}
+
+.project-card a:hover {
+    background: #1d4ed8;
+}
+
+/* ================= CARDS ================= */
+
+.card {
+    border: 1px solid var(--border);
+
+    border-left: 4px solid #2563eb;
+
+    border-radius: 10px;
+
+    padding: 8px;
+
+    margin-bottom: 7px;
+}
+
+.card small {
+    display: block;
+
+    margin-top: 5px;
+
+    color: #94a3b8;
+
+    font-size: 9px;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 800px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .resume {
+        width: 100%;
+
+        min-height: auto;
+
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        padding: 20px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .project-card {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .project-card img {
+        width: 100%;
+
+        max-width: 180px;
+
+        height: auto;
+    }
+}
+
+/* ================= PRINT ================= */
+
+@page {
+    size: A4;
+
+    margin: 0;
+}
+
+@media print {
+
+    html,
+    body {
+        width: 210mm;
+
+        height: 297mm;
+
+        margin: 0;
+
+        padding: 0;
+
+        background: #fff;
+    }
+
+    .resume {
+        width: 210mm;
+
+        height: 297mm;
+
+        min-height: 297mm;
+
+        margin: 0;
+
+        display: grid;
+
+        grid-template-columns: 72mm 1fr;
+
+        border-radius: 0;
+
+        box-shadow: none;
+
+        overflow: hidden;
+    }
+
+    .sidebar {
+        padding: 12px;
+    }
+
+    .profile {
+        width: 85px;
+
+        height: 85px;
+
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    section {
+        margin-bottom: 8px;
+    }
+
+    section h2 {
+        font-size: 16px;
+
+        margin-bottom: 8px;
+    }
+
+    section p {
+        font-size: 11px;
+
+        line-height: 1.4;
+    }
+
+    .project-card {
+        padding: 10px;
+
+        margin-bottom: 8px;
+
+        break-inside: avoid;
+
+        page-break-inside: avoid;
+    }
+
+    .project-card img {
+        width: 45px;
+
+        height: 45px;
+    }
+
+    .project-card h3 {
+        font-size: 12px;
+    }
+
+    .project-card p {
+        font-size: 10px;
+
+        line-height: 1.2;
+    }
+
+    .project-card a {
+        font-size: 9px;
+
+        padding: 3px 6px;
+    }
+
+    .card {
+        padding: 7px;
+
+        break-inside: avoid;
+
+        page-break-inside: avoid;
+    }
+}
